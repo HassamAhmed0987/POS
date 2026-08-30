@@ -1,0 +1,531 @@
+{
+  "categories": [
+    {
+      "id": "C001",
+      "name": "Burgers",
+      "description": "Crispy fried and flame-grilled juicy burgers with house special sauces",
+      "isActive": true,
+      "createdAt": "2026-08-10T10:00:00.000Z"
+    },
+    {
+      "id": "C002",
+      "name": "Pizza",
+      "description": "Stone-baked artisan pizzas loaded with fresh mozzarella and toppings",
+      "isActive": true,
+      "createdAt": "2026-08-10T10:05:00.000Z"
+    },
+    {
+      "id": "C003",
+      "name": "Fries & Sides",
+      "description": "Golden crisp fries, curly fries, onion rings and loaded sides",
+      "isActive": true,
+      "createdAt": "2026-08-10T10:10:00.000Z"
+    },
+    {
+      "id": "C004",
+      "name": "Shawarma",
+      "description": "Authentic grilled meat wraps with garlic tahini and pickles",
+      "isActive": true,
+      "createdAt": "2026-08-10T10:15:00.000Z"
+    },
+    {
+      "id": "C005",
+      "name": "Drinks",
+      "description": "Refreshing fizzy sodas, iced mint lemonades and rich shakes",
+      "isActive": true,
+      "createdAt": "2026-08-10T10:20:00.000Z"
+    },
+    {
+      "id": "C006",
+      "name": "Desserts",
+      "description": "Decadent chocolate lava cakes, churros and sundaes",
+      "isActive": true,
+      "createdAt": "2026-08-10T10:25:00.000Z"
+    },
+    {
+      "id": "C007",
+      "name": "Deals",
+      "description": "Exclusive combo meals, duo boxes and family feast packages",
+      "isActive": true,
+      "createdAt": "2026-08-10T10:30:00.000Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "P001",
+      "name": "Zinger Burger",
+      "categoryId": "C001",
+      "description": "Crispy fried chicken breast fillet with melted cheddar, fresh lettuce and spicy mayo",
+      "price": 450,
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&auto=format&fit=crop&q=80",
+      "stock": 48,
+      "isAvailable": true,
+      "createdAt": "2026-08-10T11:00:00.000Z"
+    },
+    {
+      "id": "P002",
+      "name": "Smash Double Cheeseburger",
+      "categoryId": "C001",
+      "description": "Two 100% prime beef patties smashed crispy, double American cheese, caramelized onions & secret sauce",
+      "price": 650,
+      "image": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=600&auto=format&fit=crop&q=80",
+      "stock": 35,
+      "isAvailable": true,
+      "createdAt": "2026-08-10T11:05:00.000Z"
+    },
+    {
+      "id": "P003",
+      "name": "Fiery Jalapeño Chicken Burger",
+      "categoryId": "C001",
+      "description": "Spicy grilled chicken patty topped with jalapeños, smoked chipotle sauce and pepper jack cheese",
+      "price": 520,
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=600&auto=format&fit=crop&q=80",
+      "stock": 25,
+      "isAvailable": true,
+      "createdAt": "2026-08-10T11:10:00.000Z"
+    },
+    {
+      "id": "P004",
+      "name": "Pepperoni Feast Pizza",
+      "categoryId": "C002",
+      "description": "Hand-stretched dough topped with signature marinara, double mozzarella and imported beef pepperoni",
+      "price": 950,
+      "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=600&auto=format&fit=crop&q=80",
+      "stock": 20,
+      "isAvailable": true,
+      "createdAt": "2026-08-10T11:15:00.000Z"
+    },
+    {
+      "id": "P005",
+      "name": "Chicken Tikka Supreme Pizza",
+      "categoryId": "C002",
+      "description": "Tender tandoori chicken chunks, sweet bell peppers, red onions, mushrooms and mozzarella cheese",
+      "price": 890,
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&auto=format&fit=crop&q=80",
+      "stock": 28,
+      "isAvailable": true,
+      "createdAt": "2026-08-10T11:20:00.000Z"
+    },
+    {
+      "id": "P006",
+      "name": "Loaded Cheesy Fries",
+      "categoryId": "C003",
+      "description": "Crisp skin-on golden fries drenched in warm cheddar sauce, topped with jalapeños and crispy bacon bits",
+      "price": 320,
+      "image": "https://images.unsplash.com/photo-1585109649139-366815a0d713?w=600&auto=format&fit=crop&q=80",
+      "stock": 60,
+      "isAvailable": true,
+      "createdAt": "2026-08-10T11:25:00.000Z"
+    },
+    {
+      "id": "P007",
+      "name": "Classic Golden Fries",
+      "categoryId": "C003",
+      "description": "Lightly salted, freshly fried crispy potato strips served with homemade dip sauce",
+      "price": 200,
+      "image": "https://images.unsplash.com/photo-1576107232684-1279f3908594?w=600&auto=format&fit=crop&q=80",
+      "stock": 80,
+      "isAvailable": true,
+      "createdAt": "2026-08-10T11:30:00.000Z"
+    },
+    {
+      "id": "P008",
+      "name": "Spicy Arabic Shawarma",
+      "categoryId": "C004",
+      "description": "Slow roasted shredded chicken, toum garlic cream, pickled cucumbers wrapped in toasted saj bread",
+      "price": 380,
+      "image": "https://images.unsplash.com/photo-1648838776602-53b050d249f7?w=600&auto=format&fit=crop&q=80",
+      "stock": 40,
+      "isAvailable": true,
+      "createdAt": "2026-08-10T11:35:00.000Z"
+    },
+    {
+      "id": "P009",
+      "name": "Chilled Mint Lemonade",
+      "categoryId": "C005",
+      "description": "Crushed fresh garden mint, tangy lemon juice, sparkling soda and cracked black salt over ice",
+      "price": 180,
+      "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=600&auto=format&fit=crop&q=80",
+      "stock": 90,
+      "isAvailable": true,
+      "createdAt": "2026-08-10T11:40:00.000Z"
+    },
+    {
+      "id": "P010",
+      "name": "Thick Oreo Milkshake",
+      "categoryId": "C005",
+      "description": "Rich vanilla bean ice cream blended with crushed Oreo cookies, crowned with whipped cream & chocolate drizzle",
+      "price": 290,
+      "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=600&auto=format&fit=crop&q=80",
+      "stock": 35,
+      "isAvailable": true,
+      "createdAt": "2026-08-10T11:45:00.000Z"
+    },
+    {
+      "id": "P011",
+      "name": "Molten Chocolate Lava Cake",
+      "categoryId": "C006",
+      "description": "Warm Belgian chocolate cake with a luscious gooey melted chocolate core, dusted with powdered sugar",
+      "price": 340,
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600&auto=format&fit=crop&q=80",
+      "stock": 18,
+      "isAvailable": true,
+      "createdAt": "2026-08-10T11:50:00.000Z"
+    },
+    {
+      "id": "P012",
+      "name": "Duo Crunch Combo Deal",
+      "categoryId": "C007",
+      "description": "2 Zinger Burgers, 1 Large Fries, 2 Mint Lemonades and 2 Dips",
+      "price": 1150,
+      "image": "https://images.unsplash.com/photo-1610440042657-612c34d95e9f?w=600&auto=format&fit=crop&q=80",
+      "stock": 30,
+      "isAvailable": true,
+      "createdAt": "2026-08-10T11:55:00.000Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": "CU001",
+      "name": "Daniyal Khan",
+      "email": "daniyal@example.com",
+      "phone": "03001234567",
+      "address": "Apartment 402, Sea View Residency, Block 2, Clifton, Karachi",
+      "totalOrders": 8,
+      "totalSpent": 7450,
+      "isActive": true,
+      "createdAt": "2026-08-12T09:30:00.000Z"
+    },
+    {
+      "id": "CU002",
+      "name": "Ayesha Malik",
+      "email": "ayesha.m@example.com",
+      "phone": "03219876543",
+      "address": "House 18-B, DHA Phase 6, Karachi",
+      "totalOrders": 5,
+      "totalSpent": 4890,
+      "isActive": true,
+      "createdAt": "2026-08-14T14:15:00.000Z"
+    },
+    {
+      "id": "CU003",
+      "name": "Zubair Ahmed",
+      "email": "zubair.ahmed@example.com",
+      "phone": "03335551234",
+      "address": "Flat G-12, Gulshan-e-Iqbal Block 13-D, Karachi",
+      "totalOrders": 3,
+      "totalSpent": 2750,
+      "isActive": true,
+      "createdAt": "2026-08-16T11:20:00.000Z"
+    },
+    {
+      "id": "CU004",
+      "name": "Fatima Noor",
+      "email": "fatima.noor@example.com",
+      "phone": "03451122334",
+      "address": "Plot 89, PECHS Block 2, Karachi",
+      "totalOrders": 6,
+      "totalSpent": 5600,
+      "isActive": true,
+      "createdAt": "2026-08-17T16:40:00.000Z"
+    },
+    {
+      "id": "CU005",
+      "name": "Bilal Tariq",
+      "email": "bilal.t@example.com",
+      "phone": "03124455667",
+      "address": "House 24, North Nazimabad Block H, Karachi",
+      "totalOrders": 2,
+      "totalSpent": 1850,
+      "isActive": true,
+      "createdAt": "2026-08-18T18:00:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD001",
+      "orderType": "online",
+      "customerId": "CU001",
+      "customerName": "Daniyal Khan",
+      "customerPhone": "03001234567",
+      "customerAddress": "Apartment 402, Sea View Residency, Block 2, Clifton, Karachi",
+      "subtotal": 1100,
+      "deliveryCharges": 150,
+      "total": 1250,
+      "paymentMethod": "cash",
+      "paymentStatus": "pending",
+      "status": "pending",
+      "createdAt": "2026-08-20T07:45:00.000Z"
+    },
+    {
+      "id": "ORD002",
+      "orderType": "pos",
+      "customerId": "CU002",
+      "customerName": "Ayesha Malik",
+      "customerPhone": "03219876543",
+      "customerAddress": "Walk-in Counter (Dine-in)",
+      "subtotal": 850,
+      "deliveryCharges": 0,
+      "total": 850,
+      "paymentMethod": "card",
+      "paymentStatus": "paid",
+      "status": "ready",
+      "createdAt": "2026-08-20T07:15:00.000Z"
+    },
+    {
+      "id": "ORD003",
+      "orderType": "online",
+      "customerId": "CU004",
+      "customerName": "Fatima Noor",
+      "customerPhone": "03451122334",
+      "customerAddress": "Plot 89, PECHS Block 2, Karachi",
+      "subtotal": 1290,
+      "deliveryCharges": 150,
+      "total": 1440,
+      "paymentMethod": "online",
+      "paymentStatus": "paid",
+      "status": "confirmed",
+      "createdAt": "2026-08-20T06:30:00.000Z"
+    },
+    {
+      "id": "ORD004",
+      "orderType": "pos",
+      "customerId": "WALK-IN",
+      "customerName": "Walk-in Customer",
+      "customerPhone": "03000000000",
+      "customerAddress": "Counter Takeaway",
+      "subtotal": 520,
+      "deliveryCharges": 0,
+      "total": 520,
+      "paymentMethod": "cash",
+      "paymentStatus": "paid",
+      "status": "confirmed",
+      "createdAt": "2026-08-20T05:50:00.000Z"
+    },
+    {
+      "id": "ORD005",
+      "orderType": "online",
+      "customerId": "CU003",
+      "customerName": "Zubair Ahmed",
+      "customerPhone": "03335551234",
+      "customerAddress": "Flat G-12, Gulshan-e-Iqbal Block 13-D, Karachi",
+      "subtotal": 950,
+      "deliveryCharges": 150,
+      "total": 1100,
+      "paymentMethod": "card",
+      "paymentStatus": "paid",
+      "status": "delivered",
+      "createdAt": "2026-08-19T20:10:00.000Z"
+    },
+    {
+      "id": "ORD006",
+      "orderType": "pos",
+      "customerId": "CU005",
+      "customerName": "Bilal Tariq",
+      "customerPhone": "03124455667",
+      "customerAddress": "Counter Dine-in",
+      "subtotal": 730,
+      "deliveryCharges": 0,
+      "total": 730,
+      "paymentMethod": "cash",
+      "paymentStatus": "paid",
+      "status": "delivered",
+      "createdAt": "2026-08-19T18:40:00.000Z"
+    },
+    {
+      "id": "ORD007",
+      "orderType": "online",
+      "customerId": "CU002",
+      "customerName": "Ayesha Malik",
+      "customerPhone": "03219876543",
+      "customerAddress": "House 18-B, DHA Phase 6, Karachi",
+      "subtotal": 1150,
+      "deliveryCharges": 150,
+      "total": 1300,
+      "paymentMethod": "online",
+      "paymentStatus": "paid",
+      "status": "delivered",
+      "createdAt": "2026-08-19T13:20:00.000Z"
+    },
+    {
+      "id": "ORD008",
+      "orderType": "online",
+      "customerId": "CU001",
+      "customerName": "Daniyal Khan",
+      "customerPhone": "03001234567",
+      "customerAddress": "Apartment 402, Sea View Residency, Block 2, Clifton, Karachi",
+      "subtotal": 650,
+      "deliveryCharges": 150,
+      "total": 800,
+      "paymentMethod": "cash",
+      "paymentStatus": "failed",
+      "status": "cancelled",
+      "createdAt": "2026-08-18T19:00:00.000Z"
+    },
+    {
+      "id": "ORD014547",
+      "orderType": "pos",
+      "customerId": "WALK-IN",
+      "customerName": "Walk-in Customer",
+      "customerPhone": "03000000000",
+      "customerAddress": "Counter Dine-in",
+      "subtotal": 1470,
+      "deliveryCharges": 0,
+      "total": 1470,
+      "paymentMethod": "cash",
+      "paymentStatus": "paid",
+      "status": "ready",
+      "createdAt": "2026-08-24T16:46:54.547Z"
+    }
+  ],
+  "orderItems": [
+    {
+      "id": "OI001",
+      "orderId": "ORD001",
+      "productId": "P001",
+      "productName": "Zinger Burger",
+      "quantity": 2,
+      "price": 450,
+      "total": 900
+    },
+    {
+      "id": "OI002",
+      "orderId": "ORD001",
+      "productId": "P007",
+      "productName": "Classic Golden Fries",
+      "quantity": 1,
+      "price": 200,
+      "total": 200
+    },
+    {
+      "id": "OI003",
+      "orderId": "ORD002",
+      "productId": "P002",
+      "productName": "Smash Double Cheeseburger",
+      "quantity": 1,
+      "price": 650,
+      "total": 650
+    },
+    {
+      "id": "OI004",
+      "orderId": "ORD002",
+      "productId": "P007",
+      "productName": "Classic Golden Fries",
+      "quantity": 1,
+      "price": 200,
+      "total": 200
+    },
+    {
+      "id": "OI005",
+      "orderId": "ORD003",
+      "productId": "P004",
+      "productName": "Pepperoni Feast Pizza",
+      "quantity": 1,
+      "price": 950,
+      "total": 950
+    },
+    {
+      "id": "OI006",
+      "orderId": "ORD003",
+      "productId": "P011",
+      "productName": "Molten Chocolate Lava Cake",
+      "quantity": 1,
+      "price": 340,
+      "total": 340
+    },
+    {
+      "id": "OI007",
+      "orderId": "ORD004",
+      "productId": "P003",
+      "productName": "Fiery Jalapeño Chicken Burger",
+      "quantity": 1,
+      "price": 520,
+      "total": 520
+    },
+    {
+      "id": "OI008",
+      "orderId": "ORD005",
+      "productId": "P004",
+      "productName": "Pepperoni Feast Pizza",
+      "quantity": 1,
+      "price": 950,
+      "total": 950
+    },
+    {
+      "id": "OI009",
+      "orderId": "ORD006",
+      "productId": "P008",
+      "productName": "Spicy Arabic Shawarma",
+      "quantity": 1,
+      "price": 380,
+      "total": 380
+    },
+    {
+      "id": "OI010",
+      "orderId": "ORD006",
+      "productId": "P011",
+      "productName": "Molten Chocolate Lava Cake",
+      "quantity": 1,
+      "price": 340,
+      "total": 340
+    },
+    {
+      "id": "OI011",
+      "orderId": "ORD007",
+      "productId": "P012",
+      "productName": "Duo Crunch Combo Deal",
+      "quantity": 1,
+      "price": 1150,
+      "total": 1150
+    },
+    {
+      "id": "OI012",
+      "orderId": "ORD008",
+      "productId": "P002",
+      "productName": "Smash Double Cheeseburger",
+      "quantity": 1,
+      "price": 650,
+      "total": 650
+    },
+    {
+      "id": "OI0145470",
+      "orderId": "ORD014547",
+      "productId": "P003",
+      "productName": "Fiery Jalapeño Chicken Burger",
+      "quantity": 1,
+      "price": 520,
+      "total": 520,
+      "createdAt": "2026-08-24T16:46:54.891Z"
+    },
+    {
+      "id": "OI0145471",
+      "orderId": "ORD014547",
+      "productId": "P004",
+      "productName": "Pepperoni Feast Pizza",
+      "quantity": 1,
+      "price": 950,
+      "total": 950,
+      "createdAt": "2026-08-24T16:46:54.895Z"
+    }
+  ],
+  "settings": {
+    "restaurantName": "Fast Food ",
+    "tagline": "Fast, Hot & Fresh Food",
+    "logo": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=150&auto=format&fit=crop&q=80",
+    "address": "Plot 42, Food Street, Clifton Block 5, Karachi, Pakistan",
+    "phone": "03001234567",
+    "email": "orders@crispandgrill.com",
+    "openingTime": "11:00 AM",
+    "closingTime": "02:00 AM",
+    "minimumOrder": 300,
+    "deliveryCharges": 150,
+    "acceptCash": true,
+    "acceptCard": true,
+    "acceptOnline": true,
+    "adminProfile": {
+      "name": "Daniyal Khan",
+      "email": "admin@crispandgrill.com",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80"
+    }
+  }
+}

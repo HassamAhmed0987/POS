@@ -1,0 +1,6 @@
+{
+  "name": "Fast Food Admin Dashboard",
+  "description": "Modern Fast Food Restaurant Admin Dashboard and POS Management System with online and counter order management, product catalog, categories, customer tracking, analytics, and thermal receipt printing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
