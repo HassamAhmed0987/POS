@@ -36,9 +36,26 @@ export default function Dashboard() {
   // Date filtering for today
   const todayDateString = new Date().toISOString().split("T")[0];
   
-  const todayOrders = orders?.filter((o) => {
+  // const todayOrders = orders?.filter((o) => {
+  //   if (!o.createdAt) return false;
+  //   return o.createdAt.startsWith(todayDateString) || o.createdAt.includes("2026-08-20");
+  // }) || [];
+
+  const todayOrders =
+  orders?.filter((o) => {
     if (!o.createdAt) return false;
-    return o.createdAt.startsWith(todayDateString) || o.createdAt.includes("2026-08-20");
+
+    const orderDate = o.createdAt?.toDate?.();
+
+    if (!orderDate) return false;
+
+    const today = new Date();
+
+    return (
+      orderDate.getDate() === today.getDate() &&
+      orderDate.getMonth() === today.getMonth() &&
+      orderDate.getFullYear() === today.getFullYear()
+    );
   }) || [];
 
   const todaySalesTotal = todayOrders.reduce(
