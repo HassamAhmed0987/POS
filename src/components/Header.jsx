@@ -44,9 +44,6 @@ export default function Header({ onToggleSidebar, isSidebarOpen }) {
     getUserData();
   }, [user?.uid]);
 
-  console.log(userData);
-
-
   // Determine current page title
   const getPageTitle = (pathname) => {
     switch (pathname) {
